@@ -1,0 +1,12 @@
+h1. CRUD module for Play!
+
+This module is a replica of the _play framework_ built-in CRUD module, but adds (doesn't remove) precompiled annotations of the already existing ones:
+
+ * @Exclude
+ * @Hidden
+
+So, in case you are building a module using byte-code enhancement that requires those annotations, you can compile your module.
+
+See "Setting up a basic administration area using CRUD":http://www.playframework.org/documentation/1.2.4/guide7 for more information
+
+I hope the small changes are accepted by the _play framework_ team.
